@@ -7,7 +7,8 @@ import java.util.List;
 
 import domain.Symptom;
 
-
+// y cuando lo tenemos llamaremos al sortedInterator(). 
+//iteradore bat sortu eta comparadore desberdinak 
 public class Sorting {
 	public static Iterator<Object> sortedIterator(InvertedIterator it, Comparator<Object> comparator) {
 	      List<Object> list = new ArrayList<>();
@@ -20,5 +21,7 @@ public class Sorting {
 	      Collections.sort(list, comparator);
 	      return list.iterator();
 	  }
+	
+	
 
 }
